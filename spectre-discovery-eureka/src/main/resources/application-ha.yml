@@ -1,0 +1,23 @@
+---
+spring:
+  profiles: discorery-node-01
+server:
+  port: 2195
+eureka:
+  instance:
+    hostname: discovery-node-01
+  client:
+    service-url:
+      defaultZone: http://discorery-node-02:2196/eureka/
+
+---
+spring:
+  profiles: discorery-node-02
+server:
+  port: 2196
+eureka:
+  instance:
+    hostname: discovery-node-02
+  client:
+    service-url:
+      defaultZone: http://discovery-node-01:2195/eureka/
