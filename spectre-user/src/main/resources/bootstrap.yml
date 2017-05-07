@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: spectre-user
+  cloud:
+    config:
+      uri: http://localhost:2916
+      fail-fast: true
+      username: user
+      password: ${CONFIG_SERVICE_PASSWORD}

@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>cn.hococo.spectre</groupId>
-    <artifactId>spectre-account</artifactId>
+    <artifactId>spectre-user</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 

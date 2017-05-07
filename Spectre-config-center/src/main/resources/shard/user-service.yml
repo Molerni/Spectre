@@ -1,0 +1,4 @@
+server:
+  port: 2500
+  context-path: /passport
+

@@ -8,15 +8,15 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * 描述：
+ * 描述：账号管理
  *
  * @author Yongge
  * @version 1.0
- * @date 2017-05-02
+ * @since 2017-05-02
  **/
 
 @RestController
-public class AccountController {
+public class UserController {
 
     @Autowired
     private DiscoveryClient discoveryClient;

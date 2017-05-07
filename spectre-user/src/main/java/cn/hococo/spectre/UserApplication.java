@@ -6,9 +6,9 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-public class SpectreAccountApplication {
+public class UserApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpectreAccountApplication.class, args);
+        SpringApplication.run(UserApplication.class, args);
     }
 }
